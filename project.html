@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Naveen Vijay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">NAVEEN<span>VIJAY</span></a>
+            <a href="index.html" class="btn btn-outline" style="padding: 0.5rem 1rem; border: none;">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="detail-header fade-in-up">
+            <h1 id="project-title">Loading...</h1>
+            <p id="project-subtitle" style="font-size: 1.5rem; color: var(--color-primary);"></p>
+        </div>
+
+        <div class="detail-meta fade-in-up">
+            <div>
+                <h3 style="color: var(--color-primary); margin-bottom: 1rem;">About the Project</h3>
+                <p id="project-desc" style="color: #ccc; font-size: 1.1rem; line-height: 1.8;"></p>
+            </div>
+            <div style="border-left: 1px solid #333; padding-left: 2rem;">
+                <div style="margin-bottom: 2rem;">
+                    <span style="display: block; color: #666; font-size: 0.9rem;">Client</span>
+                    <span id="project-client" style="font-size: 1.2rem;"></span>
+                </div>
+                <div>
+                    <span style="display: block; color: #666; font-size: 0.9rem;">Year</span>
+                    <span id="project-year" style="font-size: 1.2rem;"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-gallery" class="gallery fade-in-up">
+            <!-- Images Injected via JS -->
+        </div>
+    </div>
+
+    <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid #222;">
+        <p style="color: #666;">© 2024 Naveen Vijay B. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

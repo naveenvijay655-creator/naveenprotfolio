@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen Vijay B | Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">NAVEEN<span>VIJAY</span></a>
+
+      <div class="desktop-menu">
+        <a href="#category" class="nav-link">Work</a>
+        <a href="#work" class="nav-link">Projects</a>
+        <a href="assets/Sajin_Prakash_cv.pdf"><button class="btn btn-outline">Download CV</button></a>
+        <button onclick="goToContact()" class="btn btn-primary">Contact Us</button>
+      </div>
+
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <button class="close-menu">✕</button>
+    <div class="mobile-links">
+      <a href="index.html">Home</a>
+      <a href="#category">Work</a>
+      <a href="#work">Projects</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="about">
+    <div class="container hero-grid">
+      <div class="hero-text fade-in-up">
+        <h2>Graphic Designer</h2>
+        <h1>Hi, I'm <br><span style="color: var(--color-primary)">Naveen Vijay B</span></h1>
+        <p style="color: var(--color-text-muted); margin-bottom: 2rem; font-size: 1.1rem; max-width: 500px;">
+          I am specially working with brands to make logo, advertising, brochure, and printing.
+          I work closely with clients to understand their vision, values, and goals.
+          Committed to delivering outstanding output that leaves a timeless impression.
+        </p>
+        <div style="display: flex; gap: 1rem;">
+          <button class="btn btn-primary">View My Work</button>
+          <a href="https://wa.me/8281443790?text=Hai Naveen I' am"><button class="btn btn-outline">Let's Talk</button></a>
+        </div>
+      </div>
+      <div class="hero-image fade-in-up">
+        <img src="./assets/profile.jpeg" alt="Naveen Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Categories -->
+  <section id="category">
+    <div class="container">
+      <h3 style="margin-bottom: 2rem; color: #666; text-transform: uppercase; letter-spacing: 1px;">Explore by Category
+      </h3>
+      <div id="categories-container" class="category-grid fade-in-up">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="work" style="padding: 6rem 0;">
+    <div class="container">
+      <h2 class="section-title fade-in-up">Selected <br> Branding Projects</h2>
+      <div id="projects-container" class="project-grid fade-in-up">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section fade-in-up">
+    <div class="container">
+      <span class="contact-subtitle">Get in Touch</span>
+      <h2 class="contact-title">Contact Me</h2>
+
+      <div class="contact-pill">
+        <a href="mailto:naveenvijay@gmail.com" class="contact-item">
+          <!-- Filled Mail Icon -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M12 13L4 8V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V8L12 13Z" />
+            <path d="M4 6C4 4.89543 4.89543 4 6 4H18C19.1046 4 20 4.89543 20 6V6.5L12 11.5L4 6.5V6Z" />
+          </svg>
+          <span>naveenvijay@gmail.com</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="#" class="contact-item">
+          <!-- Filled LinkedIn Icon -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path
+              d="M20.447 20.452H16.892V14.88C16.892 13.553 16.864 11.848 15.043 11.848C13.197 11.848 12.913 13.288 12.913 14.784V20.452H9.358V9H12.768V10.565H12.816C13.291 9.665 14.453 8.716 16.183 8.716C19.784 8.716 20.447 11.087 20.447 14.167V20.452ZM5.337 7.433C4.197 7.433 3.274 6.509 3.274 5.37C3.274 4.229 4.197 3.306 5.337 3.306C6.477 3.306 7.4 4.229 7.4 5.37C7.4 6.509 6.477 7.433 5.337 7.433ZM7.119 20.452H3.556V9H7.119V20.452Z" />
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding: 2rem 0; text-align: center; margin-top: 0;">
+    <div class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#work">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+    <p style="color: #666; font-size: 0.9rem;">Copyright © 2024 Naveen Vijay B. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
